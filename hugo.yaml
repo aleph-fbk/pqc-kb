@@ -1,4 +1,4 @@
-baseURL: https://github.com/aleph-fbk/pqc-kb
+baseURL: https://github.com/aleph-fbk/pqc-kb/
 languageCode: en-us
 title: Post-Quantum Cryptography Knowledge Base
 
@@ -6,8 +6,11 @@ module:
   imports:
     - path: github.com/imfing/hextra
 
-menu:
+menus:
   main:
+    - name: Home
+      pageRef: /
+      weight: 10
     - name: Knowledge Base
       pageRef: /kb
       weight: 100
@@ -22,7 +25,9 @@ menu:
         icon: github
 
 params:
+
   navbar:
+
     displayTitle: true
     displayLogo: true
     logo:
@@ -31,7 +36,42 @@ params:
       link: /
       #width: 40
       height: 20
+
   theme:
     # light | dark | system
     default: system
     displayToggle: true
+
+  # Search
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+    respectDoNotTrack: true
+  instagram:
+    disable: true
+    simple: true
+  twitter:
+    disable: true
+    enableDNT: true
+    simple: true
+  vimeo:
+    disable: true
+    enableDNT: true
+    simple: true
+  x:
+    disable: true
+    enableDNT: true
+    simple: true
+  youTube:
+    disable: true
+    privacyEnhanced: true
