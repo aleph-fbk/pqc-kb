@@ -1,13 +1,15 @@
 ---
 date: '2025-06-02T07:34:48+02:00'
 draft: true
-title: 'Introduction'
+title: 'The Post-Quantum Cryptography transition'
 math: true
+cascade:
+  type: docs
 ---
 
-# The Post-Quantum Cryptography transition
 
-Why is it happening?
+> [!NOTE]
+> Why is it happening?
 
 {{< tabs groupid="a" items="In a nutshell,Cryptography,Compliance" >}}
 
@@ -25,7 +27,8 @@ Why is it happening?
     
 {{< /tabs >}}
 
-When is it happening?
+> [!IMPORTANT]
+> When is it happening?
 
 {{< tabs groupid="a" items="In a nutshell,Cryptography,Compliance" >}}
 
@@ -43,7 +46,8 @@ When is it happening?
     
 {{< /tabs >}}
 
-What could happen if we don't switch before the Bad Guys get a hold of a powerful enough quantum computer?
+> [!WARNING]
+> What could happen if we don't switch before the Bad Guys get a hold of a powerful enough quantum computer?
 
 {{< tabs groupid="a" items="In a nutshell,Cryptography,Compliance" >}}
 
@@ -61,6 +65,26 @@ What could happen if we don't switch before the Bad Guys get a hold of a powerfu
     
     {{< tab >}}
     Anyone using legacy algorithms will be unable to demonstrate compliance with any standard or legislation mandating the use of *strong cryptography*, *high assurance*, *data protection*, *strong customer authentication*, *approved algorithms* etc.
+    {{< /tab >}}
+    
+{{< /tabs >}}
+
+> [!TIP]
+> What can we do about it?
+
+{{< tabs groupid="a" items="In a nutshell,Cryptography,Compliance" >}}
+
+    {{< tab >}}
+    Plan ahead. Budget for change. Follow through.
+    You will most likely be sent new cards by your bank. You may need to buy a new mobile phone. Keep your browser and apps up to date.
+    {{< /tab >}}
+
+    {{< tab >}}
+    New standards for key exchange and digital signature are being published. Libraries and hardware will need to implement them. Standards will need to recommend them. Protocols like TLS, SSH, Wireguard etc. will need to be updated. Analysis will need to show that the updated protocols attain their security goals.
+    {{< /tab >}}
+    
+    {{< tab >}}
+    Leverage will need to be applied to cajole an entire ecosystem to switch over.
     {{< /tab >}}
     
 {{< /tabs >}}
