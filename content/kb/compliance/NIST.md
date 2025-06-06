@@ -9,9 +9,9 @@ title: 'NIST, NCCoE, NSA - US'
 timeline
     by 2027, January 1st    : all new acquisitions for NSS will be required to be CNSA 2.0 compliant
     by December 31, 2030    : all equipment and services that cannot support CNSA 2.0 must be phased out
-    after 2030              : Deprecated: ECDSA and RSA for security strength equivalent to 112 bits.
+    after 2030              : Deprecated - ECDSA and RSA for security strength equivalent to 112 bits.
     by December 31, 2031    : CNSA 2.0 algorithms are mandated for use unless otherwise noted.
-    after 2035              : Disallowed: ECDSA, EdDSA and RSA for any key length.
+    after 2035              : Disallowed - ECDSA, EdDSA and RSA for any key length.
 ```
 
 ## Sources
