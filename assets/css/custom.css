@@ -1,0 +1,13 @@
+:root {
+  --primary-hue: 349deg;
+  --primary-saturation: 55%;
+  --primary-lightness: 44%;
+}
+
+.dark {
+  --primary-hue: 355deg;
+  --primary-saturation: 100%;
+  --primary-lightness: 85%;
+}
+
+@import "./chroma-catppuccin-mocha.css";
