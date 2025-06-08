@@ -4,11 +4,13 @@ draft: true
 title: 'Cryptography'
 math: true
 ---
-# The problem
+## The problem
 
 [Shor's algorithm](https://doi.org/10.48550/arXiv.quant-ph/9508027) allows a sufficiently powerful quantum computer to recover private keys from public keys for legacy cryptosystems, in particular by [factoring RSA public moduli](https://arxiv.org/abs/2007.10044) and [breaking the (EC)DLP](https://eprint.iacr.org/2017/598).
 
-# The solution
+
+
+## The solution
 
 ## NIST standardization winners
 

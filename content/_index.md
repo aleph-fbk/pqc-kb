@@ -2,16 +2,16 @@
 date: '2025-06-02T07:34:48+02:00'
 draft: true
 title: 'The Post-Quantum Cryptography transition'
-math: true
 cascade:
   type: docs
+  math: true
 ---
 
 
 > [!NOTE]
 > Why is it happening?
 
-{{< tabs groupid="a" items="In a nutshell,Cryptography,Compliance" >}}
+{{< tabs items="In a nutshell,Cryptography,Compliance" >}}
 
     {{< tab >}}
     Our online safety is at risk from Bad Guys getting a hold of a powerful enough quantum computer, in the not too distant future.
@@ -30,7 +30,7 @@ cascade:
 > [!IMPORTANT]
 > When is it happening?
 
-{{< tabs groupid="a" items="In a nutshell,Cryptography,Compliance" >}}
+{{< tabs items="In a nutshell,Cryptography,Compliance" >}}
 
     {{< tab >}}
     Right now. Between 2025 and 2035-ish -- before quantum computers get powerful enough. By the time we read about it in the news, it will have been much too late.
@@ -49,7 +49,7 @@ cascade:
 > [!WARNING]
 > What could happen if we don't switch before the Bad Guys get a hold of a powerful enough quantum computer?
 
-{{< tabs groupid="a" items="In a nutshell,Cryptography,Compliance" >}}
+{{< tabs items="In a nutshell,Cryptography,Compliance" >}}
 
     {{< tab >}}
     - Goodbye online shopping, email, and social media. You won't be able to tell a genuine website from a fake one, ever again.
@@ -72,7 +72,7 @@ cascade:
 > [!TIP]
 > What can we do about it?
 
-{{< tabs groupid="a" items="In a nutshell,Cryptography,Compliance" >}}
+{{< tabs items="In a nutshell,Cryptography,Compliance" >}}
 
     {{< tab >}}
     Plan ahead. Budget for change. Follow through.
