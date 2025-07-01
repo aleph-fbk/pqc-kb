@@ -68,6 +68,6 @@ From which follows:
 and
 
 >[!CLAIM]
-> The columns and the rows of a unitary matrix $U\in \mathbb{C}^{n\times n}$ are two orthonormal bases of $\mathbb{C}^n$.
+> The columns and the rows of a unitary matrix $U\in \mathbb{C}^{n\times n}$ are orthonormal bases for $\mathbb{C}^n$.
 
 {{% /details %}}
