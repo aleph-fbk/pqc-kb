@@ -19,5 +19,5 @@ $\textbf{EVIDENCE 1}$
 $\textbf{EVIDENCE 2}$
 Seems like some people [sitting on the riverbank](https://www.hashicorp.com/en/blog/harvest-now-decrypt-later-why-today-s-encrypted-data-isn-t-safe-forever) are having their moment. Old communications containing sensitive or secret data are now being decrypted. Many military and intelligence secrets are being leaked to the public. Now even governments aren't to be trusted (Editor's note: assuming you trusted them before)
 
-Even if we said that we aren't here to scare, it is possible you are scared now. But there are countermeasures we can apply in order to not be Bohb's guinea pigs. That countermeasures all fall under the definition of $\textbf{post-quantum cryptography}$
+Even if we said that we aren't here to scare, it is possible you are scared now. But there are countermeasures we can apply in order to not be Bohb's guinea pigs. Those countermeasures all fall under the definition of $\textbf{post-quantum cryptography}$
 
