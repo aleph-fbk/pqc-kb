@@ -1,13 +1,10 @@
 ---
 date: '2025-07-09'
 draft: true
-title: '2-qubit gates'
+title: 'Multiple-qubit systems'
 math: true
 weight: 7
 ---
-First, we introduce multiple qubit systems.
-
-## Multiple qubit systems
 Assume we have 2 qubits for now. Generalizing from there is straightforward.
 
 Intuitively, given 2 classical bits, the possible configurations are 4:
@@ -79,4 +76,11 @@ Given $x, y, z \in \mathbb{C}^{2^n}$, $a,b \in \mathbb{C}$ and let $A, B, C, D$ 
 
 {{% /details %}}
 
+Now we are ready to uncover the truth:
+
+$$\ket{0}\ket{0} = \begin{pmatrix}1\\0\\0\\
+0\end{pmatrix} = \begin{pmatrix}1\\0\end{pmatrix} \otimes \begin{pmatrix}1\\0\end{pmatrix}= \ket{0}\ket{0}= \ket{0} \otimes \ket{0}$$ 
+and so on with the others. 
+
+With no surprise, the intuition behind the use of this notation is actually supported by a rigorous algebraic system. One can think of the tensor product as a natural way to encode the possible configurations of a system comprised of $n$ qubits.
 

@@ -6,7 +6,7 @@ math: true
 weight: 4
 ---
 
-## How power is achieved: qubits 
+
 
 >[!WARNING]
 > The following is suited for everyone with a very basic knowledge of discrete probability.

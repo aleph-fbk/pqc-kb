@@ -6,7 +6,7 @@ math: true
 weight: 5
 ---
 
-## How power is achieved: quantum gates and measurements 
+
 >[!WARNING]
 > The following is suited for those with a basic knowledge of linear algebra and information theory. Some concepts are reintroduced here, but we assume a certain familiarity with circuits, gates, linear applications and associated matrices, linear combinations, basis and orthonormality.
 
@@ -53,7 +53,7 @@ with respect to the computational basis.
 > Let $V$ be a vector space of dimension $n$ over a field $K$. Assume $V$ has a inner product $$\langle \cdot,\cdot \rangle:V\times V \rightarrow K.$$ A basis $\{v_1, . . . , v_n\}$ for $V$ is called orthonormal if 
 > - $\left\lVert v_i \right\rVert = 1$ for all $i \in {1, ...,n}$;
 > - $\langle v_i,v_j \rangle = 0$ for all $i \neq j$,  
->where the norm $\left\lVert \cdot \right\rVert$ is the one induced by the scalar product.
+>where the norm $\left\lVert \cdot \right\rVert$ is the one induced by the inner product.
 
 From now on we will use the notation $v^\dagger$ ("$v$ $\textbf{dagger}$") to denote the transpose conjugate of $v$; we will use it for matrices as well to denote the same thing.
 

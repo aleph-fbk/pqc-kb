@@ -6,7 +6,7 @@ math: true
 weight: 3
 ---
 
-## What does "powerful" mean?
+
 
 Here we try to elaborate on the "quantum computers are powerful" allegations with a practical perspective. But what does powerful mean, exactly? 
 
