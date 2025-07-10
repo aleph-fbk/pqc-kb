@@ -26,7 +26,7 @@ Now, take a 2-qubits register:
 Once measured, the possible configurations they may assume are the 4 we just saw. So, following the same idea of the single-qubit state, we can define the state $\ket{\Phi}$ of a 2-qubit register as 
 $$ \ket{\Phi}= \alpha_1\ket{0}\ket{0}+\alpha_2\ket{0}\ket{1}+\alpha_3\ket{1}\ket{1}+\alpha_1\ket{1}\ket{1}$$
 
-with the usual condition $$|\alpha_1|^2 + |\alpha_2|^2+ |\alpha_3|^2 +|\alpha_4|^2$$ and $\alpha_i\in \mathbb{C}$ for every $i=1,2,3,4$.
+with the usual condition $$|\alpha_1|^2 + |\alpha_2|^2+ |\alpha_3|^2 +|\alpha_4|^2 = 1$$ and $\alpha_i\in \mathbb{C}$ for every $i=1,2,3,4$.
 
 Why didn't we write $\ket{x}\ket{y}$ instead of $\ket{\Phi}$? This is the first taste of weirdness for this topic: not every 2-qubit system can be expressed as a "product". But let's go step by step.
 
