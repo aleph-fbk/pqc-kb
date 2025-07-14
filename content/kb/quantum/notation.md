@@ -1,9 +1,8 @@
 ---
 date: '2025-07-10'
-draft: true
 title: 'The long dark teatime of the notation'
 math: true
-weight: 9
+weight: 0
 ---
 
 Consider this a break to dive a little deeper in the notation. This is a page you can look up whenever you get lost in the sea of symbols.
@@ -53,3 +52,25 @@ $$f(v) = w^\dagger v$$ for every $v\in \mathbb{C}^n$. This justifies the use of 
 We use the Dirac notation in a more flexible way. For example, we represent vectors of the canonical basis with $\ket{0}$ and $\ket{1}$ instead of $\ket{(1, 0)}$ and $\ket{(0, 1)}$. This is for the sake of simplicity. As you know, systems of $n$ qubits are represented on $\mathbb{C}^{2^n}$: the dimension scales very fast! It would be impractical to write vectors in their extended version.
 
 Moreover, we often take poetic licenses such as $\ket{+}$ and $\ket{-}$, which are even less significant if we take the Dirac notation too (let's say) seriously, but are very meaningful in our context because they provide compactness and clarity! Never taken a shortcut before?
+
+## More on notation
+
+Since $$\ket{x_1}\ket{x_2}\dots \ket{x_m} = \ket{x_1}\otimes \ket{x_2}\otimes\dots\ket{x_n} $$
+we will write these two representations interchangeably, depending on the context.
+
+Moreover, we will often use the more compact notation
+$$\ket{x_1x_2\dots x_m}$$
+instead of both, and when the states are known we may write something like, for example:
+$$\ket{00100}_{x_1x_2x_3x_4x_5}$$
+to stress the fact that those 0's and 1's are the states of the system relative to the corresponding $x_i$. 
+
+## And another thing... {#number-notation}
+
+We aren't redundant, the subject is redundant! There's another way to express vectors of the computational basis. For example, take:
+
+
+$$\ket{00100}$$
+and note that $00100$ is the binary representation of $4$. Then, we write
+$$\ket{4}_5=\ket{00100}$$
+where the subscript "5" is there because we are working with a 5-qubit system. In fact, even $0000100$ is a binary representation of $4$ but $\ket{0000100}$ is a state of a  
+$7$-qubit system.

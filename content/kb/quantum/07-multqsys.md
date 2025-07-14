@@ -25,7 +25,7 @@ $$ \ket{\Phi}= \alpha_1\ket{0}\ket{0}+\alpha_2\ket{0}\ket{1}+\alpha_3\ket{1}\ket
 
 with the usual condition $$|\alpha_1|^2 + |\alpha_2|^2+ |\alpha_3|^2 +|\alpha_4|^2 = 1$$ and $\alpha_i\in \mathbb{C}$ for every $i=1,2,3,4$.
 
-Why didn't we write $\ket{x}\ket{y}$ instead of $\ket{\Phi}$? This is the first taste of weirdness for this topic: not every 2-qubit system can be expressed as a "product". But let's go step by step.
+Why didn't we write $\ket{x}\ket{y}$ instead of $\ket{\Phi}$? This is the first taste of weirdness for this topic: not every 2-qubit system can be expressed as a "product", but we don't need to dive further in this here.
 
 ## Tensor product
 We can express $\ket{0}\ket{0}$ as a vector as well. If a qubit can assume 2 possible configurations and thus its states can be represented by 2-dimensional complex vectors, it comes naturally that 2-qubit systems have states that can be represented by 4-dimensional complex vectors, as they have 4 possible configurations at the end of the day (i.e. after measurement). In general, $n$-qubit systems'state can be represented by $2^n$-dimensional complex vectors. We can use the same principle as before: we just perform a correspondence between states and vectors of the canonical basis of $\mathbb{C}^{2^n}$. So in our case:
@@ -82,5 +82,5 @@ $$\ket{0}\ket{0} = \begin{pmatrix}1\\0\\0\\
 0\end{pmatrix} = \begin{pmatrix}1\\0\end{pmatrix} \otimes \begin{pmatrix}1\\0\end{pmatrix}= \ket{0}\ket{0}= \ket{0} \otimes \ket{0}$$ 
 and so on with the others. 
 
-With no surprise, the intuition behind the use of this notation is actually supported by a rigorous algebraic system. One can think of the tensor product as a natural way to encode the possible configurations of a system comprised of $n$ qubits.
+With no surprise, the intuition behind the use of this notation is actually supported by a rigorous algebraic system. One can think of the tensor product as a natural way to encode the possible configurations of a system composed of $n$ qubits.
 
