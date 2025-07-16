@@ -6,7 +6,7 @@ math: true
 weight: 6
 ---
 
-Assume we have want to build a circuit using only one qubit. In this case, gates are unitary $2\times2$ matrices with complex coefficients. First, we present the simple and fundamental $\textbf{Pauli gates}$.
+Assume we want to build a circuit using only one qubit. In this case, gates are unitary $2\times2$ matrices with complex coefficients. First, we present the simple and fundamental $\textbf{Pauli gates}$.
 
 ## Pauli gates
 These gates are called $X, Y, Z$ as they perform rotations along the $x, y, z$ axes on a special sphere called [Bloch sphere](https://en.wikipedia.org/wiki/Bloch_sphere), which gives a visual representation of states for single qubits.

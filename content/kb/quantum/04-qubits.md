@@ -57,7 +57,7 @@ Superposition can be understood with the help of the well-known [Schrodinger's c
 {{% /details %}}
 
 
-  In general, any state can be described as $$\ket{\Phi} = \alpha\ket{0} + \beta\ket{1}$$ with $\alpha, \beta \in \mathbb{C}$ such that $|\alpha|^2 + |\beta|^2 =1$.
+  In general, any state can be described as $$\ket{\Phi} = \alpha\ket{0} + \beta\ket{1}$$ with $\alpha, \beta \in \mathbb{C}$ such that $|\alpha|^2 + |\beta|^2 =1$. The latter are usually called "$\textbf{amplitudes}$" of the state.
 
 
 

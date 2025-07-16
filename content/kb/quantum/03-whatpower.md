@@ -8,7 +8,8 @@ weight: 3
 
 
 
-Here we try to elaborate on the "quantum computers are powerful" allegations with a practical perspective. But what does powerful mean, exactly? 
+Here we try to understand what "powerful" really means
+# allegations with a practical perspective. But what does powerful mean, exactly? 
 
 >[!POWER] 
 >The quantum computational model is [equivalent to the classical one](https://arxiv.org/abs/quant-ph/9906111). A classical Turing Machine (TM) can be simulated by a Quantum Turing Machine (QTM) in polynomial time; a QTM can be simulated by a TM with $\textbf{exponential}$ time.

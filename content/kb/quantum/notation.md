@@ -74,3 +74,10 @@ and note that $00100$ is the binary representation of $4$. Then, we write
 $$\ket{4}_5=\ket{00100}$$
 where the subscript "5" is there because we are working with a 5-qubit system. In fact, even $0000100$ is a binary representation of $4$ but $\ket{0000100}$ is a state of a  
 $7$-qubit system.
+
+Thus, in general, we write $\ket{x}_n$ with $x=0, \dots, 2^n-1$ to denote the computational basis of a $n$-qubit system.
+
+{{% details title="More on the QFT" closed="true" %}}
+
+
+{{% /details %}}
