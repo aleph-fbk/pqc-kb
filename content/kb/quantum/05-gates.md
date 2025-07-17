@@ -78,8 +78,9 @@ Finally, it holds:
 
 And we invite to prove the following, using these properties:
 
->[!EXERCISE]
->If $U$ is unitary and self-adjoint (so $U^\dagger=U$), then it is an involution (i.e. it is its own inverse).
+>[!EXERCISES]
+> - All eigenvalues of a unitary matrix have modulus 1, hence: every eigenvalue of a unitary matrix can be written as $e^{i\theta}$ for the right $\theta\in [0, 2\pi]$
+> - If $U$ is unitary and self-adjoint (so $U^\dagger=U$), then it is an involution (i.e. it is its own inverse).
 
 
 {{% /details %}}

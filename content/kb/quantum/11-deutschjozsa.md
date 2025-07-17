@@ -28,8 +28,8 @@ $$O_fO_f\ket{x}\ket{y}=\ket{x}\ket{y}$$ (an involution, some might say).
 > - balanced: $$\{x\in \{0,1\}^n \mid f(x)=1 \}= \{x\in \{0,1\}^n | f(x)=0 \}.$$
 > Decide whether it is the first or the second case with the minimal amount of queries to the oracle $\mathcal{O}_f$.
 
-In the classical setting, $\frac{N}{2}+1$ queries are necessary in the worst case.
-Let's see the quantum solution, that takes the obvious name of Deutsch-Josza algorithm.
+In the classical setting, $\frac{N}{2}+1$ queries are necessary in the worst case (with $N=2^n$).
+Let's see the quantum solution, that takes the name of $\textbf{Deutsch-Josza algorithm}$.
 
 Thorugh preparation, the algorithm begins with the \( n+1 \) qubit state:
 \[
@@ -68,7 +68,9 @@ $$
 \mathrm{H}^{\otimes n} \ket{k} = \frac{1}{\sqrt{2^n}} \sum_{j\in \{0,1\}^n}(-1)^{k \cdot j} \ket{j}
 $$
 
-where $ k \cdot j = k_0 j_0 \oplus k_1 j_1 \oplus \cdots \oplus k_{n-1} j_{n-1} $ is the bitwise dot product modulo 2. Thus, applying Hadamards:
+where $ k \cdot j = k_0 j_0 \oplus k_1 j_1 \oplus \cdots \oplus k_{n-1} j_{n-1} $ is the bitwise dot product modulo 2. Note that we switched to the bitstring representation of $j$ instead of the integer one, in order to be consistent with the dot product. This is just a notational trick, but it can be useful to get familiar with it, for the future.
+
+ Thus, applying Hadamards:
 
 $$
 \frac{1}{\sqrt{2^n}} \sum_{x\in \{0,1\}^n} (-1)^{f(x)}
@@ -96,3 +98,5 @@ $$
 This equals 1 if $ f(x) $ is constant, and 0 if $ f(x) $ is balanced.
 
 In other words, the final measurement yields $ \ket{0}^{\otimes n} $ if and only if $ f(x) $ is constant.
+
+$\textbf{We just resolved the problem with only one (!!) query to the oracle!}$
