@@ -8,13 +8,17 @@ weight: 3
 
 
 
-Here we try to understand what "powerful" really means
-# allegations with a practical perspective. But what does powerful mean, exactly? 
+In this section, we try to understand what "powerful" really means. 
+ <!-- allegations with a practical perspective. But what does powerful mean, exactly?  -->
 
->[!POWER] 
+
+
+
+The quantum model can compute exactly the same functions computable by the classic model, no more and no less. Difference is, the quantum model can theoretically compute those functions generally faster. Hence, we are not talking about a revolution in expressiveness but in computational time.
+{{% details title="More details with Turing Machines" closed="true" %}}
+>[!REMARK] 
 >The quantum computational model is [equivalent to the classical one](https://arxiv.org/abs/quant-ph/9906111). A classical Turing Machine (TM) can be simulated by a Quantum Turing Machine (QTM) in polynomial time; a QTM can be simulated by a TM with $\textbf{exponential}$ time.
-
-This is crucial: the quantum model can compute exactly the same functions computable by the classic model, no more and no less. Difference is, the quantum model can theoretically compute those functions generally faster. Hence, we are not talking about a revolution in expressiveness but in computational time.
+{{% /details %}}
 
 >[!WARNING]
 >The gap between theory and practice in QC is significant. The algorithms designed in theory have to clash with the reality of things: qubits and quantum circuits are implemented using extremely delicate physical systems, subject to errors and difficult to build. This delicacy is inherited by the same principle that allows QC to be so powerful: quantum systems are intrinsecally probabilistic.
