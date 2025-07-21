@@ -19,7 +19,7 @@ and it is a framework we will follow in the quantum setting.
 
 
 ## The controlled-NOT gate
-The controlled-NOT gate ($\textbfc{NOT}) is defined as the following matrix:
+The controlled-NOT gate ($\textbf{NOT}$) is defined as the following matrix:
 
 $$\textbf{cNOT} = \begin{pmatrix}1&0&0&0\\ 
                         0&1&0&0\\
@@ -38,7 +38,7 @@ Its visual representation is the following:
 ![cnotgate](/images/cnotgate.png)
 the $\ket{x}$ register is called $\textbf{control}$ qubit and the $\ket{y}$ register is called $\textbf{target}$: if the control's state is $\ket{0}$, then the gate applies a NOT operation on the target, otherwise it does nothing. The control qubit remains untouched by the gate, such as in the first example we made with the classical reversible XOR gate. As a matter of fact, this IS the reversible quantum-XOR gate we were looking for!
 
-$\textbf{NOTE:}$ in Dirac notation: $$\textbf{cNOT}\ket{x}\ket{y}= \ket{x}\ket{x\oplus y}$$
+$\textbf{NOTE.}$ In Dirac notation: $$\textbf{cNOT}\ket{x}\ket{y}= \ket{x}\ket{x\oplus y}$$
 
 
 

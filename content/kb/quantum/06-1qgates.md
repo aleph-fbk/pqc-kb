@@ -61,9 +61,16 @@ $$H\ket{0}=\frac{1}{\sqrt{2}}\begin{bmatrix}
 
 {{% details title="More on the Fourier basis" closed="true" %}}
 
+
 - It is an orthonormal basis;
 - the change of basis matrix from the computational basis to the Fourier basis is the Hadamard gate (do you recall what we said about unitary transformations and o.n. bases?);
 - it has a particular [representation on the Bloch sphere](https://quantum-education-modules.readthedocs.io/en/latest/introductory/qubits/bloch_sphere.html).
+{{% /details %}}
+
+{{% details title="Hadamard gate as a source of randomness" closed="true" %}}
+The Hadamard gate can be used to simulate a (simple) random bit generator. Starting from $\ket{0}$, we apply $\textbf{H}$ and then measure the resulting state. The result of the measurement will be $\ket{0}$ or $\ket{1}$ with the same probability $\frac{1}{2}$, correctly simulating a fair coin toss.
+
+
 {{% /details %}}
 
 >[!REMARK]
