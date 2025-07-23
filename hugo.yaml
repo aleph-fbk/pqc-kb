@@ -1,4 +1,4 @@
-baseURL: https://github.com/aleph-fbk/pqc-kb/
+#baseURL: https://github.com/aleph-fbk/pqc-kb/
 languageCode: en-us
 title: Post-Quantum Cryptography Knowledge Base
 
@@ -26,9 +26,6 @@ menus:
     - name: Home
       pageRef: /
       weight: 10
-    - name: Knowledge Base
-      pageRef: /kb
-      weight: 100
     - name: Search
       weight: 400
       params:
