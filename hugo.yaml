@@ -102,3 +102,7 @@ privacy:
   youTube:
     disable: true
     privacyEnhanced: true
+
+caches:
+  images:
+    dir: :cacheDir/images
