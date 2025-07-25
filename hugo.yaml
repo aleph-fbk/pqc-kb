@@ -25,16 +25,26 @@ menus:
   main:
     - name: Home
       pageRef: /
-      weight: 10
+      weight: 100
     - name: Search
-      weight: 400
+      weight: 200
       params:
         type: search
+    - name: aleph
+      weight: 300
+      url: "https://aleph.fbk.eu"
+      params:
+        icon: aleph-logo-white
     - name: GitHub
       weight: 500
       url: "https://github.com/aleph-fbk/pqc-kb"
       params:
         icon: github
+    - name: FBK
+      weight: 600
+      url: "https://fbk.eu"
+      params:
+        icon: fbk-logo-white
 
 params:
 
@@ -46,7 +56,7 @@ params:
     logo:
       path: images/favicon.svg
       dark: images/favicon-dark.svg
-      link: /
+      link: /pqc-kb
       #width: 40
       height: 20
 
@@ -61,7 +71,8 @@ params:
   
   footer:
     enable: true
-    displayPoweredBy: true
+    displayCopyright: false
+    displayPoweredBy: false
 
   # Search
   # flexsearch is enabled by default

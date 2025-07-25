@@ -4,6 +4,7 @@ title: 'Post-Quantum Cryptography Knowledge Base'
 cascade:
   type: docs
   math: true
+  breadcrumbs: false
 ---
 
 
