@@ -6,7 +6,7 @@ math: true
 ---
 
 > [!IMPORTANT]
-> Cryptography is based on finding a mathematical problem that is very hard to solve **unless** you know a secret, sometimes known as the private key.
+> Cryptography is based on finding a mathematical problem that is very hard to solve -- unless you know a secret, sometimes known as the private key.
 
 > [!IMPORTANT]
 > A key is information.
