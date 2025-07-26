@@ -23,9 +23,9 @@ markup:
 
 menus:
   main:
-    - name: Home
-      pageRef: /
-      weight: 100
+    #- name: Home
+    #  pageRef: /
+    #  weight: 100
     - name: Search
       weight: 200
       params:

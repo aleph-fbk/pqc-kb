@@ -1,10 +1,10 @@
 ---
 date: '2025-06-06T13:19:11+02:00'
-draft: true
 title: 'RSA'
 math: true
+weight: 210
 ---
-## The basics: RSA signature
+## RSA signature
 
 In textbook RSA, only with a private key $d$ can we generate a signature
 $$\sigma \leftarrow m^{d}\equiv m \pmod{N}$$
@@ -29,9 +29,10 @@ There are plenty of ways to [attack RSA](https://crypto.stanford.edu/~dabo/paper
 > A 3072-bit RSA public key provides $\approx 128$ bits of security against a classical computer. [[BGGHTZ_22](https://dx.doi.org/10.1109/MSEC.2022.3141918)]
 
 > [!WARNING]
-> The most efficient quantum algorithm to factorize an $N$ of length $b$ bits, Shor's algorithm, has complexity approximately
-> $$b^3$$
-> A 3072-bit RSA public key provides $\approx 34$ bits of security against a quantum computer.
+> Shor's algorithm to factorize an $N$ of length $b$ bits has complexity approximately
+> $$b^3$$.
+> A 3072-bit RSA public key would provide $\approx 34$ bits of security against a quantum computer running Shor's algorithm.
+> More recent estimates suggest it is possible to reach an efficiency closer to $b^2$.
 
 ## RSA and Shor's algorithm
 
@@ -77,3 +78,8 @@ Suppose $p=3, q=7, N=21$. Non-trivial solutions are ${8,-8\equiv 13}$, for which
 {{% /details %}}
 
 {{% /details %}}
+
+## Can't we just use bigger keys?
+
+No. Quantum algorithms for this particular problem scale much better than their classical best equivalent -- polynomial ($\approx n^2$) vs. sub-exponential ($e ^ {3 b^{1/3} \cdot (\log b)^{2/3}}$), respectively. To keep using RSA with acceptable levels of securitty, we would have to increase public key sizes to *terabytes*.
+<img class="dark-invertible" src="../GNFS_vs_Shor.png" alt="Scaling of GNFS vs quantum algorithms"/>

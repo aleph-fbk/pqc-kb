@@ -10,9 +10,48 @@
   --primary-lightness: 85%;
 }
 
+@import "./chroma-catppuccin-mocha.css";
 
-.nav-container-blur:not(html[class~="dark"] *) {
+/* FBK blue and white header background, text, and icons */
+
+.nav-container:not(html[class~="dark"] *) {
   background-color: #1c5db1
 }
 
-@import "./chroma-catppuccin-mocha.css";
+.nav-container-blur:not(html[class~="dark"] *) {
+  background-color: transparent;
+}
+
+.nav-container:not(html[class~="dark"] *) .hx-mr-2  {
+  color: #fff
+}
+
+.nav-container:not(html[class~="dark"] *) .hx-text-current  {
+  color: #fff
+}
+
+.nav-container:not(html[class~="dark"] *) .hx-text-center  {
+  color: #fff
+}
+
+.nav-container:not(html[class~="dark"] *) .search-input  {
+  color: #fff
+}
+element.style {
+    color-scheme: light;
+}
+
+@media (prefers-color-scheme: light) {
+  .dark-invertible {
+        filter: invert(100%);
+    }
+}
+
+@media all {
+    .dark-invertible:not(html[class~="dark"] *) {
+        filter: invert(100%);
+    }
+    .light-invertible:is(html[class~="dark"]) {
+        filter: invert(100%);
+    }
+}
