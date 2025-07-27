@@ -4,7 +4,7 @@ title: 'Introduction and FAQ'
 weight: 100
 ---
 
-> [!NOTE]
+> [!note]
 > Why is it happening?
 
 {{< tabs items="In a nutshell,Cryptography,Compliance" >}}
@@ -23,7 +23,7 @@ weight: 100
     
 {{< /tabs >}}
 
-> [!WARNING]
+> [!caution]
 > What could happen if we don't switch before the Bad Guys get a hold of a powerful enough quantum computer?
 
 {{< tabs items="In a nutshell,Cryptography,Compliance" >}}
@@ -49,7 +49,7 @@ weight: 100
 See [Impact](./impact) for more potential consequences.
 
 
-> [!TIP]
+> [!tip]
 > What can we do about it?
 
 {{< tabs items="In a nutshell,Cryptography,Compliance" >}}

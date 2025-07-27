@@ -3,10 +3,9 @@ date: '2025-07-24T07:46:08+02:00'
 title: 'FAQ'
 weight: 110
 ---
-> [!IMPORTANT]
-> Q: How long do we have?
-> 
-> A: Until the early 2030s.
+> [!note] Q: How long do we have?
+
+> [!tip] A: Until the early 2030s.
 
 {{< tabs items="In a nutshell,Cryptography,Compliance" >}}
 
@@ -29,10 +28,9 @@ weight: 110
 
 
 
-> [!NOTE]
-> Q: Will the new algorithms slow us down?
->
-> A: No.
+> [!note] Q: Will the new algorithms slow us down?
+
+> [!tip] A: No.
 
 {{< tabs items="In a nutshell,Cryptography,TLS handshake" >}}
 
@@ -69,17 +67,16 @@ weight: 110
 
 
 
-> [!NOTE]
-> Q: Are we going to need a quantum computer or new quantum hardware in our PCs and phones to use the new algorithms?
->
-> A: No.
+> [!note] Q: Are we going to need a quantum computer or new quantum hardware in our PCs and phones to use the new algorithms?
+
+> [!tip] A: No.
 
 You may need _some_ new hardware for dedicated cryptographic processing -- smart cards, secure elements, TPMs, security keys etc. -- but this is mostly because
 - the firmware is designed to not be updatable over-the-air for security reasons,
 - the hardware implements specific algorithms for efficiency,
 - the hardware was not designed to cope with specific requirements, such as there not being enough RAM to store the new, larger keys.
 
-> [!WARNING]
+> [!warning]
 > You **will** need to keep your software updated with the latest patches -- but you're doing that already, right?
 >
 > ... Right?

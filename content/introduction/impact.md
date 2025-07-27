@@ -4,7 +4,7 @@ title: 'Impact'
 weight: 120
 ---
 
-If and when the Bad Guys do get a hold of a sufficiently powerful quantum computer, what consequences could there be?
+> [!caution] Q: If and when the Bad Guys do get a hold of a sufficiently powerful quantum computer, what consequences could there be?
 
 {{< tabs items="Trust,Services,Cryptography,Protocols" >}}
 
