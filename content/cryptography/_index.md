@@ -4,13 +4,19 @@ title: 'Cryptography'
 math: true
 weight: 200
 ---
-## The problem
 
-[Shor's algorithm](https://doi.org/10.48550/arXiv.quant-ph/9508027)[^S97] allows a sufficiently powerful quantum computer to recover private keys from public keys for legacy cryptosystems, in particular by [factoring RSA public moduli](https://arxiv.org/abs/2007.10044)[^E07] and [breaking the (EC)DLP](https://eprint.iacr.org/2017/598)[^RNSL17].
+> [!caution] Problem
+> [Shor's algorithm](https://doi.org/10.48550/arXiv.quant-ph/9508027)[^S97] allows a sufficiently powerful quantum computer to recover private keys from public keys for legacy cryptosystems, in particular by [factoring RSA public moduli](https://arxiv.org/abs/2007.10044)[^E07] and [breaking the (EC)DLP](https://eprint.iacr.org/2017/598)[^RNSL17].
+>
+> This drives the need to replace all public key algorithms, particularly digital signatures and key exchange / encapsulation.
 
+{{< cards >}}
+    {{< card link="RSA/" title="RSA and integer factoring" icon="information-circle" >}}
+    {{< card link="DH_DLog/" title="Diffie-Hellman and Discrete Logarithm" icon="information-circle" >}}
+{{< /cards >}}
 
-
-## The solution
+> [!important] Solution
+> Post-quantum cryptography is about finding new problems that are presumed to be difficult to solve on both classical and quantum computers -- until proven otherwise -- and building new cryptosystems on these problems.
 
 ## NIST standardization winners
 

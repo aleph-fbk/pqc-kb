@@ -1,6 +1,6 @@
 ---
 date: '2025-06-06T13:19:11+02:00'
-title: 'RSA'
+title: 'RSA and integer factoring'
 math: true
 weight: 210
 ---
