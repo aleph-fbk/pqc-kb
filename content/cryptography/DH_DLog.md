@@ -8,13 +8,13 @@ math: true
 ## Diffie-Hellman key exchange[^DifHel76]
 
 - Public parameters:
-    - $\mathbb{G}$ a cyclic group with efficient exponentiation and hard DLog
+    - $\mathbb{G}$ a cyclic group of order $n$ with efficient exponentiation and hard DLog
     - $g$ a generator of $\mathbb{G}$
 - Independently:
     - Alice draws random secret $a\in \mathbb{Z}$
     - Bob draws random secret $b\in \mathbb{Z}$
-- Alice and Bob exchange $g^a$, $g^b$ over an insecure, public channel.
-- Alice and Bob can each compute $s=g^{ab}$
+- Alice and Bob exchange $g^a \mod n$, $g^b \mod n$ over an insecure, public channel.
+- Alice and Bob can each compute $s=g^{ab} \mod n$
 
 ```mermaid
 sequenceDiagram
@@ -50,6 +50,8 @@ The CDH seems intuitive, but is hard to verify.
 
 For a given group $\mathbb{G}$, if DLP is easy, then CDH is easy; if DDH is hard, then CDH is hard.
 {{% /details %}}
+
+## References
 
 [^DifHel76]: Diffie, W., and Hellman, M. E. (1976). New directions in cryptography.
 *IEEE Transactions on Information Theory*, *22*(6), 644–654.

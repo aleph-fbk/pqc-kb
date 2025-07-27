@@ -6,7 +6,7 @@ weight: 200
 ---
 
 > [!caution] Problem
-> [Shor's algorithm](https://doi.org/10.48550/arXiv.quant-ph/9508027)[^S97] allows a sufficiently powerful quantum computer to recover private keys from public keys for legacy cryptosystems, in particular by [factoring RSA public moduli](https://arxiv.org/abs/2007.10044)[^E07] and [breaking the (EC)DLP](https://eprint.iacr.org/2017/598)[^RNSL17].
+> Shor's algorithm[^S97] allows a sufficiently powerful quantum computer to recover private keys from public keys for legacy cryptosystems, in particular by factoring RSA public moduli[^E07] and breaking the (EC)DLP[^RNSL17].
 >
 > This drives the need to replace all public key algorithms, particularly digital signatures and key exchange / encapsulation.
 
@@ -34,6 +34,18 @@ weight: 200
 [Kyber]: https://en.wikipedia.org/wiki/Kyber
 [Dilithium]: https://pq-crystals.org/dilithium/index.shtml
 
-[^S97]: P W Shor: "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer". 1997. [arXiv:quant-ph/9508027](https://doi.org/10.48550/arXiv.quant-ph/9508027)
-[^E07]: M Ekerå: "On completely factoring any integer efficiently in a single run of an order finding algorithm". 2007. [arXiv:2007.10044](https://doi.org/10.48550/arXiv.2007.10044)
-[^RNSL17]: M Roetteler, M Naehrig, K M Svore, and K Lauter: "Quantum Resource Estimates for Computing Elliptic Curve Discrete Logarithms". 2017. [ia.cr/2017/598](https://eprint.iacr.org/2017/598)
+## References
+
+[^E07]: Ekerå, M. (2021). On completely factoring any integer efficiently in a
+single run of an order-finding algorithm. *Quantum Information
+Processing*, *20*(6). https://doi.org/10.1007/s11128-021-03069-1
+
+[^RNSL17]: Roetteler, M., Naehrig, M., Svore, K. M., and Lauter, K. (2017).
+*Quantum resource estimates for computing elliptic curve discrete
+logarithms*. Cryptology ePrint Archive, Paper 2017/598.
+https://eprint.iacr.org/2017/598
+
+[^S97]: Shor, P. W. (1997). Polynomial-time algorithms for prime factorization
+and discrete logarithms on a quantum computer. *SIAM Journal on
+Computing*, *26*(5), 1484–1509.
+https://doi.org/10.1137/s0097539795293172
