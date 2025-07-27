@@ -46,8 +46,6 @@ weight: 120
     - PKCS
     {{< /tab >}}
 
-    X.509 certificates, 
-
 {{< /tabs >}}
 
 Please note: these statements are deliberately overblown to emphasize the potential impact of this threat. Even though the chances are that we won't be in this situation until 2040, bear in mind that the process of switching to new cryptography has already taken two decades in 2025, and is expected to take at least a third. If we have to rush, we'll be too late.
