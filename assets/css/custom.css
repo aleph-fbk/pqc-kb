@@ -1,7 +1,7 @@
 :root {
-  --primary-hue: 349deg;
-  --primary-saturation: 55%;
-  --primary-lightness: 44%;
+  --primary-hue: 223deg;
+  --primary-saturation: 77%;
+  --primary-lightness: 29%;
 }
 
 .dark {
@@ -41,17 +41,13 @@ element.style {
     color-scheme: light;
 }
 
-@media (prefers-color-scheme: light) {
-  .dark-invertible {
-        filter: invert(100%);
-    }
-}
+/* Figure color invert on dark mode */
 
 @media all {
     .dark-invertible:not(html[class~="dark"] *) {
         filter: invert(100%);
     }
-    .light-invertible:is(html[class~="dark"]) {
+    .light-invertible:is(html[class~="dark"] *) {
         filter: invert(100%);
     }
 }
