@@ -3,6 +3,7 @@ date: '2025-07-26T11:32:14+02:00'
 draft: false
 title: 'Diffie-Hellman key exchange and the Discrete Logarithm problem'
 math: true
+weight: 220
 ---
 
 ## Diffie-Hellman key exchange[^DifHel76]
