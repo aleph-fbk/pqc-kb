@@ -1,7 +1,7 @@
 ---
 date: '2025-07-24T07:46:08+02:00'
 title: 'FAQ'
-weight: 110
+weight: 120
 ---
 > [!note] Q: How long do we have?
 

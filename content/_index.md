@@ -12,8 +12,9 @@ cascade:
 
 
 {{< cards >}}
-  {{< card link="introduction/" title="Introduction" icon="information-circle" >}}
+    {{< card link="introduction/" title="Introduction" icon="information-circle" >}}
+    {{< card link="timeline/" title="Timeline" icon="trending-up" >}}
     {{< card link="cryptography/" title="Cryptography" icon="key" >}}
     {{< card link="quantum/" title="Quantum Information" icon="variable" >}}
-    {{< card link="management_process/" title="Transition management process" icon="clipboard-check" >}}
 {{< /cards >}}
+

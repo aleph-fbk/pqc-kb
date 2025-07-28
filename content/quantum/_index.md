@@ -2,7 +2,7 @@
 date: '2025-07-01'
 title: 'Quantum Information'
 math: true
-weight: 300
+weight: 400
 ---
 
 

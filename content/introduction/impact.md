@@ -1,7 +1,7 @@
 ---
 date: '2025-07-22T14:14:05+02:00'
 title: 'Impact'
-weight: 120
+weight: 110
 ---
 
 > [!caution] Q: If and when the Bad Guys do get a hold of a sufficiently powerful quantum computer, what consequences could there be?
