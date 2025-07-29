@@ -1,6 +1,5 @@
 ---
 date: '2025-07-09'
-# draft: true
 title: 'Multiple-qubit systems'
 math: true
 weight: 7
@@ -17,9 +16,8 @@ $$\ket{0}\ket{0}$$
 $$\ket{1}\ket{1}$$
 $$\ket{1}\ket{0}$$
 $$\ket{0}\ket{1}$$
-Now, take a 2-qubit register:
-
-<img class="light-invertible" src="../images/2-qubitregister.png" alt="2qreg"/>
+Now, take a 2-qubits register:
+![2qreg](images/2-qubitregister.png)
 
 Once measured, the possible configurations they may assume are the 4 we just saw. So, following the same idea of the single-qubit state, we can define the state $\ket{\Phi}$ of a 2-qubit register as 
 $$ \ket{\Phi}= \alpha_1\ket{0}\ket{0}+\alpha_2\ket{0}\ket{1}+\alpha_3\ket{1}\ket{1}+\alpha_1\ket{1}\ket{1}$$
