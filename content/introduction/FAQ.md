@@ -47,7 +47,7 @@ weight: 120
     {{< tab >}}
     It depends on the algorithm. For ML-DSA and FN-DSA, very roughly speaking:
     - Signature verification speeds will be mostly unaffected.
-    - Signature generation speeds and  will be 10 times slower than EdDSA, but 10 times faster than RSA -- and still microseconds on unconstrained devices.
+    - Signature generation speeds will be 10 times slower than EdDSA, but 10 times faster than RSA -- and still microseconds on unconstrained devices.
     - Public keys and signature will be ~10 times larger -- but still about a kilobyte instead of 100 bytes.
     See the [cloudflare blog](https://blog.cloudflare.com/another-look-at-pq-signatures/#the-algorithms) for a quick summary and the [NIST signature zoo](https://pqshield.github.io/nist-sigs-zoo/#performance) for more detail.
     {{< /tab >}}
