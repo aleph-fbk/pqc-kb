@@ -27,7 +27,7 @@ $$
 > $$ a+kn \quad \forall k$$
 > is the *congruence / residue class* of $a$ modulo $n$, i.e., all integers with the same remainder as $a$ after division by $n$.
 
-Integers 𝑚𝑜𝑑 𝑛 form an additive group ℤ𝑛■ Example: ℤ5
+
 
 ## Groups
 
