@@ -35,6 +35,8 @@ use
 
 If the image was created with dark mode in mind, use `class="dark-invertible"` instead.
 
+Bonus points: make the background transparent, rather than white (or other solid color).
+
 ## Bibliography
 
 To add bibliographic references with a uniform style throughout, use [pandoc](https://github.com/jgm/pandoc) and [CSL](https://github.com/citation-style-language/styles) to generate footnote markdown.
