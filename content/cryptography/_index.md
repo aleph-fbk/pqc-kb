@@ -11,8 +11,8 @@ weight: 300
 > This drives the need to replace all public key algorithms, particularly digital signatures and key exchange / encapsulation.
 
 {{< cards >}}
-    {{< card link="RSA/" title="RSA and integer factoring" icon="information-circle" >}}
-    {{< card link="DH_DLog/" title="Diffie-Hellman and Discrete Logarithm" icon="information-circle" >}}
+    {{< card link="rsa/" title="RSA and integer factoring" icon="information-circle" >}}
+    {{< card link="dh_dlog/" title="Diffie-Hellman and Discrete Logarithm" icon="information-circle" >}}
 {{< /cards >}}
 
 > [!important] Solution
@@ -22,7 +22,7 @@ weight: 300
 
 | Type          | KEM             | Signature            |
 | ---           | ---             | ---                  |
-| Lattice-based | [ML-KEM][ML-KEM] ([Kyber][Kyber]) | ML-DSA ([Dilithium][Dilithium])   |
+| Lattice-based | [ML-KEM][ML-KEM] ([Kyber][Kyber]) | [ML-DSA][ML-DSA] ([Dilithium][Dilithium])   |
 | Code-based | [HQC][HQC]         |                      |
 | Hash-based |                    | [SLH-DSA][SLH-DSA] ([SPINCS][SPINCS]$^+$) |
 
