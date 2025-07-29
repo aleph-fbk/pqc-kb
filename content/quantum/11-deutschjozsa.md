@@ -1,6 +1,6 @@
 ---
 date: '2025-07-11'
-draft: true
+# draft: true
 title: 'Deutsch-Jozsa Algorithm'
 math: true
 weight: 11

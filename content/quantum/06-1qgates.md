@@ -1,6 +1,6 @@
 ---
 date: '2025-07-07'
-draft: true
+# draft: true
 title: 'Single-qubit gates'
 math: true
 weight: 6
@@ -84,7 +84,7 @@ Observe that $H$ is not only invertible, but it is its own inverse. A function s
 
 ## Circuit notation
 An example of visual representation of a circuit is the following:
-![circuit](Hadgate.png)
+![circuit](images/Hadgate.png)
 - The initial state is $\ket{0}$;
 - the line is called "qubit register";
 - the qubit passes through an Hadamard gate and its state becomes $\ket{+}$;
