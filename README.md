@@ -1,3 +1,16 @@
+A short primer for a mixed audience, including cryptographers, IT professionals, compliance officers, and students.
+
+This resource aims to be precise but concise, with enough material to get readers started but plenty of references to keep going.
+
+Topics include:
+- the mathematics of cryptography, old and new;
+- standards and official cybersecurity guidelines and recommendations;
+- the transition process, including pointers to useful tools for cryptographic inventory, agility, and compliance;
+- quantum information, to facilitate an understanding of what motivates the process.
+
+> [!warning] Work in progress.
+> This resource should be considered an alpha release, i.e., not yet feature complete.
+
 ## Install and test locally
 
 Following Hugo installation instructions ([Linux](https://gohugo.io/installation/linux/)):
@@ -8,6 +21,6 @@ hugo mod get -u
 hugo server -D
 ```
 
-## Theme
+## Thanks
 
-[Hextra](https://imfing.github.io/hextra/) - supports latex via [KaTeX](https://katex.org/), jupyter notebooks ([alpha](https://imfing.github.io/hextra/docs/guide/shortcodes/jupyter/)), and diagrams via [mermaid.js](https://mermaid.js.org/).  Dark / light mode in response to user agent preference.
+Built with [Hugo](https://github.com/gohugoio/hugo) and [Hextra](https://github.com/imfing/hextra).
