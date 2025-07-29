@@ -77,7 +77,4 @@ $7$-qubit system.
 
 Thus, in general, we write $\ket{x}_n$ with $x=0, \dots, 2^n-1$ to denote the computational basis of a $n$-qubit system.
 
-{{% details title="More on the QFT" closed="true" %}}
 
-
-{{% /details %}}
