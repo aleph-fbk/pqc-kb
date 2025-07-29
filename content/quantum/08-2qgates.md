@@ -7,13 +7,14 @@ weight: 8
 ---
 
 A classical 2-bit gate is the XOR gate:
-![xorgate](images/xorgate.png)
+
+<img class="light-invertible" src="../images/xorgate.png" alt="xorgate"/>
 
 The XOR gate is clearly not reversible. If we want to design its quantum counterpart, we need a reversible gate.
 
 The most obvious way to make the XOR gate reversible is:
 
-![revxorgate](images/revxorgate.png)
+<img class="light-invertible" src="../images/revxorgate.png" alt="revxorgate"/>
 
 and it is a framework we will follow in the quantum setting.
 

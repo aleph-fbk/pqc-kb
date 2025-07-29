@@ -13,7 +13,7 @@ $\textbf{NOTE}:$ this class of problems are the daily bread of cryptanalysis, do
 
 In a quantum setting, we can model $O_f$ as a gate (thus, it must be reversible) in the following way:
 
-![oraclegate](/images/oraclegate.png)
+<img class="light-invertible" src="../images/oraclegate.png" alt="oraclegate"/>
 
 that is: $$O_f\ket{x}\ket{y}= \ket{x}\ket{f(x)\oplus y}.$$ It is actually reversible:
 $$O_fO_f\ket{x}\ket{y}=\ket{x}\ket{y}$$ (an involution, some might say).
