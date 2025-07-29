@@ -18,21 +18,9 @@ weight: 300
 > [!important] Solution
 > Post-quantum cryptography is about finding new problems that are presumed to be difficult to solve on both classical and quantum computers -- until proven otherwise -- and building new cryptosystems on these problems.
 
-## NIST standardization winners
-
-| Type          | KEM             | Signature            |
-| ---           | ---             | ---                  |
-| Lattice-based | [ML-KEM][ML-KEM] ([Kyber][Kyber]) | [ML-DSA][ML-DSA] ([Dilithium][Dilithium])   |
-| Code-based | [HQC][HQC]         |                      |
-| Hash-based |                    | [SLH-DSA][SLH-DSA] ([SPINCS][SPINCS]$^+$) |
-
-[ML-KEM]: https://csrc.nist.gov/pubs/fips/203/final
-[ML-DSA]: https://csrc.nist.gov/pubs/fips/204/final
-[SLH-DSA]: https://csrc.nist.gov/pubs/fips/205/final
-[HQC]: https://pqc-hqc.org/
-[SPINCS]: https://sphincs.org/
-[Kyber]: https://en.wikipedia.org/wiki/Kyber
-[Dilithium]: https://pq-crystals.org/dilithium/index.shtml
+{{< cards >}}
+    {{< card link="standards/" title="New Post-quantum Cryptography Standards" icon="information-circle" >}}
+{{< /cards >}}
 
 ## References
 

@@ -26,37 +26,16 @@ timeline
     2035 : Disallowed for any key length -​ RSA, ECDSA, EdDSA, (FF/EC)DH, MQV​
     2040 : ¿ First CRQC [^BSI_QCE_v2.1]
 ```
-## NIST standardization winners
 
-| Type          | Key Encapsulation Mechanism             | Digital Signature Algorithm            |
-| ---           | ---             | ---                  |
-| Lattice-based | ML-KEM[^FIPS_203] ([Kyber][Kyber]) | ML-DSA[^FIPS_204] ([Dilithium][Dilithium]) <br> ¿ FN-DSA ([Falcon][Falcon])  |
-| Code-based | [HQC][HQC]         |                      |
-| Hash-based |                    | SLH-DSA[^FIPS_205] ([SPINCS][SPINCS]$^+$) |
-
-[HQC]: https://pqc-hqc.org/
-[SPINCS]: https://sphincs.org/
-[Kyber]: https://en.wikipedia.org/wiki/Kyber
-[Dilithium]: https://pq-crystals.org/dilithium/index.shtml
-[Falcon]: https://falcon-sign.info/
+{{< cards >}}
+    {{< card link="../cryptography/standards/" title="New Post-quantum Cryptography Standards" icon="information-circle" >}}
+{{< /cards >}}
 
 ## References
 
 [^BSI_QCE_v2.1]: Bundesamt für Sicherheit in der Informationstechnik (BSI). (2025).
 *Studie: Entwicklungsstand Quantencomputer Version 2.1*.
 <https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/Studien/Quantencomputer/Entwicklungstand_QC_V_2_1.html?nn=916616>.
-
-[^FIPS_203]: National Institute of Standards and Technology (NIST). (2024a).
-Module-lattice-based digital signature standard. In *FIPS* (Vol. 204).
-<https://csrc.nist.gov/pubs/fips/204/final​>.
-
-[^FIPS_204]: National Institute of Standards and Technology (NIST). (2024b).
-Module-lattice-based key-encapsulation mechanism standard. In *FIPS*
-(Vol. 203). <https://csrc.nist.gov/pubs/fips/203/final​>.
-
-[^FIPS_205]: National Institute of Standards and Technology (NIST). (2024c).
-Stateless hash-based digital signature standard. In *FIPS* (Vol. 205).
-<https://csrc.nist.gov/pubs/fips/205/final​>.
 
 [^NIST_IR_8547]: National Institute of Standards and Technology (NIST). (2024d).
 Transition to post-quantum cryptography standards. In *Internal Report:

@@ -1,6 +1,5 @@
 ---
 date: '2025-07-01'
-draft: true
 title: 'What is power?'
 math: true
 weight: 3

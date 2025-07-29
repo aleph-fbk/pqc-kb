@@ -1,6 +1,5 @@
 ---
 date: '2025-07-01'
-draft: true
 title: 'How power is achieved: qubits'
 math: true
 weight: 4
