@@ -84,7 +84,8 @@ Observe that $H$ is not only invertible, but it is its own inverse. A function s
 
 ## Circuit notation
 An example of visual representation of a circuit is the following:
-![circuit](images/Hadgate.png)
+<img class="light-invertible" src="../images/Hadgate.png" alt="Hadamard gate circuit"/>
+
 - The initial state is $\ket{0}$;
 - the line is called "qubit register";
 - the qubit passes through an Hadamard gate and its state becomes $\ket{+}$;
