@@ -82,4 +82,4 @@ Suppose $p=3, q=7, N=21$. Non-trivial solutions are ${8,-8\equiv 13}$, for which
 ## Can't we just use bigger keys?
 
 No. Quantum algorithms for this particular problem scale much better than their classical best equivalent -- polynomial ($\approx n^2$) vs. sub-exponential ($e ^ {3 b^{1/3} \cdot (\log b)^{2/3}}$), respectively. To keep using RSA with acceptable levels of securitty, we would have to increase public key sizes to *terabytes*.
-<img class="dark-invertible" src="../GNFS_vs_Shor.png" alt="Scaling of GNFS vs quantum algorithms"/>
+<img class="dark-invertible" src="GNFS_vs_Shor.png" alt="Scaling of GNFS vs quantum algorithms"/>

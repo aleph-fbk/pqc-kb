@@ -101,7 +101,7 @@ As expected, $n-1=6$ is a generator of $\{6,1\} \pmod{7}$:
 | $6^3$ | $216 \equiv -1 \pmod{7}$ |
 
 
-<img class="dark-invertible" src="../Z_7star.png" alt="Scaling of GNFS vs quantum algorithms"/>
+<img class="dark-invertible" src="Z_7star.png" alt="Scaling of GNFS vs quantum algorithms"/>
 
 
 
