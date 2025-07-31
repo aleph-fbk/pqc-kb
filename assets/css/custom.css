@@ -51,3 +51,7 @@ element.style {
         filter: invert(100%);
     }
 }
+
+.tikz:is(html[class~="dark"] *) {
+  filter: invert(1);
+}

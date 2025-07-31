@@ -101,10 +101,29 @@ As expected, $n-1=6$ is a generator of $\{6,1\} \pmod{7}$:
 | $6^3$ | $216 \equiv -1 \pmod{7}$ |
 
 
-<img class="dark-invertible" src="Z_7star.png" alt="Scaling of GNFS vs quantum algorithms"/>
-
-
-
+<div class=tikz>
+<script type="text/tikz">
+    \definecolor{prussianblue}{HTML}{113285}
+    \definecolor{marigold}{HTML}{FFB11B}
+    \definecolor{rosered}{HTML}{D0104C}
+  \begin{tikzpicture}[scale=2.5,
+    element/.style={circle, draw=prussianblue!60, fill=prussianblue!10, very thick, minimum size=15mm, font={\bfseries\Large}},
+    generator/.style={circle, draw=marigold!60, fill=marigold!10, very thick, minimum size=15mm, font={\bfseries\Large}},
+    subgroup/.style={circle, draw=rosered!60, fill=rosered!10, very thick, minimum size=15mm, font={\bfseries\Large}},
+    ]
+    \foreach \i in {1,2,4,5}  \node[element] (\i) at (canvas polar cs:angle=120-\i*360/6,radius=2cm) {$\i$};
+    \node[generator] (g) at (canvas polar cs:angle=120-3*360/6,radius=2cm) {$3$};
+    \node[subgroup] (6) at (canvas polar cs:angle=120-6*360/6,radius=2cm) {$6$};
+    \draw[thick,->] (g.east) to[bend right=30] (2.south);
+    \draw[thick,->] (2.north) to[bend right=40] (6.north east);
+    \draw[thick,->] (6.south west) to[bend right=50] (4.north);
+    \draw[thick,->] (4.west) to[bend left=50] (5.south);
+    \draw[thick,->] (5.north) to[bend left=90] (1.north west);
+    \draw[thick,->,rosered] (6.north) to[bend left=90] (1.north);
+    \draw[thick,->,rosered] (1.south) to[bend left=90] (6.south);
+  \end{tikzpicture}
+</script>
+</div>
 
 ## References
 
