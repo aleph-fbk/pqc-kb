@@ -13,7 +13,7 @@ The XOR gate is clearly not reversible. If we want to design its quantum counter
 
 The most obvious way to make the XOR gate reversible is:
 
-<img class="light-invertible" src="../images/revxorgate.png" alt="revxorgate"/>
+<img class="light-invertible" src="../images/revxorgate.svg" alt="revxorgate" style='height: 70%; width: 70%; object-fit: contain'/>
 
 and it is a framework we will follow in the quantum setting.
 
