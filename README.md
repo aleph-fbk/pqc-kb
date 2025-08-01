@@ -11,16 +11,6 @@ Topics include:
 > [!warning] Work in progress.
 > This resource should be considered an alpha release, i.e., not yet feature complete.
 
-## Install and test locally
-
-Following Hugo installation instructions ([Linux](https://gohugo.io/installation/linux/)):
-
-```bash
-sudo snap install hugo
-hugo mod get -u
-hugo server -D
-```
-
 ## Thanks
 
 Built with [Hugo](https://github.com/gohugoio/hugo) and [Hextra](https://github.com/imfing/hextra).
