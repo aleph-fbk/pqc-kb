@@ -8,11 +8,11 @@ weight: 280
 
 ## NIST standardization winners
 
-| Type          | Key Encapsulation Mechanism             | Digital Signature Algorithm            |
-| ---           | ---             | ---                  |
+| Type          | Key Encapsulation Mechanism        | Digital Signature Algorithm            |
+| ---           | ---                                | ---                  |
 | Lattice-based | ML-KEM[^FIPS_203] ([Kyber][Kyber]) | ML-DSA[^FIPS_204] ([Dilithium][Dilithium]) <br> ¿ FN-DSA ([Falcon][Falcon])  |
-| Code-based | [HQC][HQC]         |                      |
-| Hash-based |                    | SLH-DSA[^FIPS_205] ([SPHINCS][SPHINCS]$^+$) |
+| Code-based    | [HQC][HQC]                         |                      |
+| Hash-based    |                                    | SLH-DSA[^FIPS_205] ([SPHINCS][SPHINCS]$^+$) |
 
 [HQC]: https://pqc-hqc.org/
 [SPHINCS]: https://sphincs.org/
