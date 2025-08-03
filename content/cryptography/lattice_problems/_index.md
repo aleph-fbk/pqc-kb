@@ -86,7 +86,7 @@ Inhomogeneous indicates that $b\neq 0$. The SIS problem with $b=0$ is of equival
       0/-\row+2/A/4/2/$A$,
       2.4/0/S/2/1/$s$,
       4.5/-\row+2/E/4/1/$e$,
-      7/0/A/2/1/$b$}
+      7/-2/A/4/1/$b$}
     {% \node [left] at (0,\y) {\l};
       \draw [\style] (\x,\y) rectangle (\x+\col,\y+\row);
       \node [Eq] at (\x+\col/2,\y+\row-1.3) {\text};
