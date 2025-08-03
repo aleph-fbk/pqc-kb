@@ -10,12 +10,13 @@ A quick primer to essential notions useful in post-quantum cryptography. While t
 
 ## SIS problem
 
-> [!important] (Inhomogenous) Short Integer Solutions problem
+> [!important] (Inhomogenous) Short Integer Solutions problem [^Ajtai96]
 > Given
 > - $A \overset{R}{\leftarrow}\mathbb{Z}_q^{n\times m}$, an $(n\times m)$ matrix with random entries in $\mathbb{Z}_q$,
 > - $b \overset{R}{\leftarrow}\mathbb{Z}_q^{m}$, an $(m \times 1)$ vector with random entries in $\mathbb{Z}_q$,
 > 
 > find $z \in\mathbb{Z}^{m}$ such that $Az=b\pmod{q}$ and $z\in[-B,B]^m$.
+
 
 <br>
 <div class=tikz>
@@ -24,8 +25,8 @@ A quick primer to essential notions useful in post-quantum cryptography. While t
     \definecolor{marigold}{HTML}{FFB11B}
     \definecolor{rosered}{HTML}{D0104C}
   \begin{tikzpicture}[scale=1,
-    A/.style={draw=prussianblue!60, fill=prussianblue!10, very thick, minimum size=15mm, font={\bfseries\Large}},
-    S/.style={draw=rosered!60, fill=rosered!10, very thick, minimum size=15mm, font={\bfseries\Large}},
+    A/.style={draw=prussianblue!60, fill=prussianblue!10, line width=1mm, minimum size=15mm, font={\bfseries\Large}},
+    S/.style={draw=rosered!60, fill=rosered!10, line width=1mm, minimum size=15mm, font={\bfseries\Large}},
     Eq/.style={font={\bfseries\Huge},anchor=base}
     ]
     %\draw[A] (0,0) rectangle ++(2,.5);
@@ -56,7 +57,7 @@ Inhomogeneous indicates that $b\neq 0$. The SIS problem with $b=0$ is of equival
 
 ## LWE problem
 
-> [!important] Learning With Errors problem
+> [!important] Learning With Errors problem [^Regev05]
 > Let 
 > - $s \overset{R}{\leftarrow}\mathbb{Z}_q^{n}$ a vector with random entries in $\mathbb{Z}_q$ -- a secret;
 > - $e \overset{R}{\leftarrow} [-B,B]^m$ with $B \ll q/2$ -- a small error.
@@ -74,9 +75,9 @@ Inhomogeneous indicates that $b\neq 0$. The SIS problem with $b=0$ is of equival
     \definecolor{marigold}{HTML}{FFB11B}
     \definecolor{rosered}{HTML}{D0104C}
   \begin{tikzpicture}[scale=1,
-    A/.style={draw=prussianblue!60, fill=prussianblue!10, very thick, minimum size=15mm, font={\bfseries\Large}},
-    S/.style={draw=rosered!60, fill=rosered!10, very thick, minimum size=15mm, font={\bfseries\Large}},
-    E/.style={draw=marigold!60, fill=marigold!10, very thick, minimum size=15mm, font={\bfseries\Large}},
+    A/.style={draw=prussianblue!60, fill=prussianblue!10, line width=1mm, minimum size=15mm, font={\bfseries\Large}},
+    S/.style={draw=rosered!60, fill=rosered!10, line width=1mm, minimum size=15mm, font={\bfseries\Large}},
+    E/.style={draw=marigold!60, fill=marigold!10, line width=1mm, minimum size=15mm, font={\bfseries\Large}},
     Eq/.style={font={\bfseries\Huge},anchor=base}
     ]
     %\draw[A] (0,0) rectangle ++(2,.5);
@@ -103,11 +104,22 @@ Inhomogeneous indicates that $b\neq 0$. The SIS problem with $b=0$ is of equival
 - If $m\gg n$, an unique solution is likely to exist.
   - However, if also $B\ll\sqrt{n}$, a solution can be easy to find.
 
-### Equivalence: DLWE
+### Equivalence: DLWE, ss-LWE
 
-The Decisional LWE (DLWE) problem -- distinguish whether a given $\tilde{b}$ is a solution to an LWE instance or a random vector in $\mathbb{Z}_q^{m}$ -- is of equivalent difficulty.
+The difficulty of solving the LWE problem has been proved equivalent to:
+
+- the Decisional LWE (DLWE) problem: distinguish whether a given $\tilde{b}$ is a solution to an LWE instance or a random vector in $\mathbb{Z}_q^{m}$;
+- the short-secret LWE (ss-LWE) problem: same as LWE but with smaller coefficients in $s$, more precisely $s \overset{R}{\leftarrow}[-B,B]^m$ a vector with random entries in $[-B,B]^m$ rather than $\mathbb{Z}_q$.
 
 ## References
 
+[^Ajtai96]: Ajtai, M. (1996). Generating hard instances of lattice problems
+(extended abstract). *STOC 96*, 99–108.
+https://doi.org/10.1145/237814.237838
+
 [^Menezes24]: Menezes, A. J. (2024). *Cryptography 101*.
 <https://cryptography101.ca/>.
+
+[^Regev05]: Regev, O. (2005). On lattices, learning with errors, random linear
+codes, and cryptography. *STOC 96*, 84–93.
+https://doi.org/10.1145/1060590.1060603
