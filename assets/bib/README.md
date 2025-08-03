@@ -4,6 +4,12 @@
 pandoc -t markdown_strict --citeproc nocite.md -o out.md --bibliography crypto.bib --csl=apa-no-ampersand.csl
 ```
 
+Assumes .csl file is available, otherwise
+
+```bash
+wget https://github.com/citation-style-language/styles/raw/refs/heads/master/apa-no-ampersand.csl
+```
+
 ## Pandoc --citeproc .md
 https://pandoc.org/MANUAL.html#citation-rendering
 - -f: from (source file type)
