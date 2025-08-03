@@ -53,5 +53,5 @@ element.style {
 }
 
 .tikz:is(html[class~="dark"] *) {
-  filter: invert(1);
+  filter: invert(1) hue-rotate(100deg);
 }
