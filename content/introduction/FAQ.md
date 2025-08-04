@@ -74,7 +74,7 @@ weight: 120
 You may need _some_ new hardware for dedicated cryptographic processing -- smart cards, secure elements, TPMs, security keys etc. -- but this is mostly because
 - the firmware is designed to not be updatable over-the-air for security reasons,
 - the hardware implements specific algorithms for efficiency,
-- the hardware was not designed to cope with specific requirements, such as there not being enough RAM to store the new, larger keys.
+- the hardware was not designed to cope with specific requirements, such as there not being enough memory to store the new, larger keys.
 
 > [!warning]
 > You **will** need to keep your software updated with the latest patches -- but you're doing that already, right?

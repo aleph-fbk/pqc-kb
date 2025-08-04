@@ -53,7 +53,7 @@ menus:
         icon: github
     - name: FBK
       weight: 600
-      url: "https://fbk.eu"
+      url: "https://www.fbk.eu"
       params:
         icon: fbk-logo-white
 
@@ -65,7 +65,7 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/favicon.svg
+      path: images/favicon-dark.svg
       dark: images/favicon-dark.svg
       link: /pqc-kb
       #width: 40
