@@ -109,7 +109,7 @@ params:
       sync: true
 
   math:
-    engine: katex
+    engine: mathjax
 
 privacy:
   disqus:
