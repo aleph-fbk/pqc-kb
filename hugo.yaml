@@ -108,8 +108,8 @@ params:
     tabs:
       sync: true
 
-#  math:
-#    engine: katex
+  math:
+    engine: katex
 
 privacy:
   disqus:

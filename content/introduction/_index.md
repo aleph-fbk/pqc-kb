@@ -68,3 +68,5 @@ See [Impact](./impact) for more potential consequences.
     {{< /tab >}}
     
 {{< /tabs >}}
+
+$\blacksquare$
