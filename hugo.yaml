@@ -29,7 +29,7 @@ markup:
         # KaTeX
         delimiters:
           block: [['\[', '\]'], ['$$', '$$']]
-          inline: [['\(', '\)']]
+          inline: [['\(', '\)'], ['$', '$']]
         enable: true
 
 menus:
@@ -103,6 +103,13 @@ params:
       enable: true
       # hover | always
       display: hover
+
+  page:
+    tabs:
+      sync: true
+
+#  math:
+#    engine: katex
 
 privacy:
   disqus:
